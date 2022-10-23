@@ -15,4 +15,3 @@ Prime or not
     } else {
         console.log("No");
     }
-}

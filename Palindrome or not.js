@@ -1,9 +1,9 @@
 Palindrome or not
-let N= str.length;
-let str="nmaman'
+
+let str="naman"
 let rev="";
-    for(let i=N-1;i>0;i--){
-        rev= rev + str[i+1];  
+    for(let i=str.length-1;i>=0;i--){
+        rev= rev + str[i];  
 }
  if(str==rev){
     console.log("Yes");
